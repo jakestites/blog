@@ -1,53 +1,87 @@
 body {
-	background: url("images/hillcountrybluebonnet.jpg");
+	background: url("images/oceanscape.jpg");
 	background-attachment: fixed;
-	margin: 100px 100px 100px 100px;
-	max-width: 1000px;
+	max-width: 1080px;
+	margin: 100px auto !important;
+	float: none !important;
 }
 
 a {
-	color: #BF5700;
+	color: #FF9900;
 	text-decoration: none;
+	font-size: 1.25em;
+}
+
+p {
+	font-family: 'Nothing You Could Do', cursive;
 }
 
 h1 {
-	color: #BF5700;
+	color: red;
 }
 
 h3 {
-	color: #BF5700;
+	color: #FF9900;
+	font-size: 1.5em;
+	font-family: 'Nothing You Could Do', cursive;
 }
 
+h4 {
+	font-size: 1em;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+span {
+	color: red;
+}
 /* Start of Header Styling */
 #header {
-	margin-bottom: 75px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid black;
 	
 }
 .name {
 	display: inline;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 3em;
 }
 
 .nav {
 	display: inline;
 	margin-left: 15px;
-	margin-top: 2px;
+	margin-top: 25px;
 	float: right;
-	font-size: 1.5em;
-	color: #BF5700;
-	
+	font-size: 2em;
+	color: #FF9900;
+	font-family: 'Nothing You Could Do', cursive;	
 }
 /* End of Header Styling */
 
 /* Beginning of Main Post Area */
 .main_float_box {
-	background: rgba(204,204,254,0.5);
+	background: rgba(255,255,255,0.60);
 	border: 2px solid black;
-	padding: 20px;
+	padding: 0px 20px 0px 20px;
+	margin:	20px 100px 100px 100px;
+	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .short_post {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	margin-bottom: 30px;
 	border-bottom: 2px solid black;
+}
+
+.day1codingclass {
+	float: right;
+	border: 2px solid black;
+	margin: 7px;
+
 }
 /* End of Main Post Area */
