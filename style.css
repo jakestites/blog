@@ -1,6 +1,53 @@
-
-
 body {
-	background: url("images/leathertexture.jpg");
+	background: url("images/hillcountrybluebonnet.jpg");
 	background-attachment: fixed;
+	margin: 100px 100px 100px 100px;
+	max-width: 1000px;
 }
+
+a {
+	color: #BF5700;
+	text-decoration: none;
+}
+
+h1 {
+	color: #BF5700;
+}
+
+h3 {
+	color: #BF5700;
+}
+
+/* Start of Header Styling */
+#header {
+	margin-bottom: 75px;
+	
+}
+.name {
+	display: inline;
+}
+
+.nav {
+	display: inline;
+	margin-left: 15px;
+	margin-top: 2px;
+	float: right;
+	font-size: 1.5em;
+	color: #BF5700;
+	
+}
+/* End of Header Styling */
+
+/* Beginning of Main Post Area */
+.main_float_box {
+	background: rgba(204,204,254,0.5);
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.short_post {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid black;
+}
+/* End of Main Post Area */
